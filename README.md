@@ -6,4 +6,4 @@ https://spotify-clone-react.netlify.app/
 <img src="login.png">
 
 #Main page
-<img src="spotify.png">
+<img src="spotify.PNG">
