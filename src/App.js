@@ -41,6 +41,14 @@ function App() {
           type: actionTypes.SET_PLAYLISTS,
           playlists: playlists,
         })
+      });
+
+      spotify.getPlaylist('4Lw3pLRaRyNNpdYSh4L9nA')
+      .then(response=>{
+        dispatch({
+          type: actionTypes.SET_DISCOVER_WEEKLY,
+          discover_weekly: response,
+        })
       })
     }
     
